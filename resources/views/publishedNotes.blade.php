@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Note Taking App</title>
+    <title>Note App</title>
     <style>
         /* CSS styles for the note-taking app */
         body {
