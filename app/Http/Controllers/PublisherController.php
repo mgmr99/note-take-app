@@ -57,10 +57,7 @@ class PublisherController extends Controller
         return redirect()->route('publisher.userNotes', $note->user_id);
     }
 
-    public function deleteUser(User $user){
-        $user->delete();
-        return redirect()->route('publisher.dashboard');
-    }
+
      public function publisherLogout()
     {
         auth()->logout();
